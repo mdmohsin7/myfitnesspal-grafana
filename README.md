@@ -15,7 +15,7 @@ A simple website that accepts CSV exports and renders nice visual representation
 ## Solution
 This Application take CSV file as an input -> Send data to backend as JSON -> Sanitize the data -> insert data into a table in PostgreSQL -> Grafana Dashboard is generated based on the data of table.
 
-You can test the live demo by visiting here: https://myfitnesspal-grafana-4a7e.globeapp.dev/
+You can test the live demo by visiting here: https://myfitnesspal-grafana-4a7e.globeapp.dev/ (uploading would result in CORS error, so please try locally)
 
 Or you can run it locally as well
 

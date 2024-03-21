@@ -59,7 +59,7 @@ class _MyHomePageState extends State<MyHomePage> {
       _isLoading = true;
     });
     var res = await Dio()
-        .post('https://myfitnesspal-grafana.globeapp.dev/uploadCsvData', data: {
+        .post('http://localhost:8080/uploadCsvData', data: {
       'entries': jsonEncode(csvFileContentList),
     });
     setState(() {
